@@ -1,0 +1,53 @@
+    1  git config 
+    2  git config --global user.name "Vladyslav Narizhniy"
+    3  git config --global user,email "vulfiontop@gmail.com"
+    4  git config --global user.email "vulfiontop@gmail.com"
+    5  git config --list --show-origin
+    6  git config --global user.name "Narizhnyi Vladyslav"
+    7  git config --list --show-origin 
+    8  git config --list
+    9  git config --global user.email "vulfiontop@gmail.com"
+   10  git config --list
+   11  cd
+   12  ssh-keygen
+   13  cat .ssh/id_ed25519.pub
+   14  ssh ec2-user@linux.itcareerhub.de
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  cd 
+   17  ls -a
+   18  ls -l
+   19  ssh ec2-user@linux.itcareerhub.de
+   20  cd
+   21  ssh ec2-user@linux.itcareerhub.de
+   22  cd
+   23  ec2-user@linux.itcareerhub.de
+   24  ssh ec2-user@linux.itcareerhub.de
+   25  cd
+   26  ssh ec2-user@linux.itcareerhub.de
+   27  cd
+   28  cd /
+   29  ls
+   30  cd opt
+   31  cd tmp
+   32  ls
+   33  cd /
+   34  ls
+   35  ssh ec2-user@linux.itcareerhub.de
+   36  scp ec2-user@linux.itcareerhub.de:/tmp/file.txt ~/Downloads/
+   37  ssh ec2-user@linux.itcareerhub.de
+   38  touch gitignore
+   39  git add .
+   40  git status
+   41  git commit -m "first commit"
+   42  git branch -M main
+   43  git remote add origin git@github.com:Fel11x32/git-amend-task.git
+   44  git push -u origin main
+   45  git checkout -b feature
+   46  git add .
+   47  git commit -m "update README.md and .gitignore"
+   48  git push -u origin feature
+   49  git commit --amend -m "update README.md and .gitignore (amend)"
+   50  git push origin feature --force
+   51  git checkout main
+   52  git merge feature
+   53  history > history.txt
