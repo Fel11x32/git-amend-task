@@ -1,1 +1,1 @@
-# git-amend-task
+# Проект git-amend-task
